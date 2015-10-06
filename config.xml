@@ -41,9 +41,8 @@
     <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
     <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
     <gap:plugin name="org.apache.cordova.vibration" source="npm"/>
-	<gap:plugin name="plugin.google.maps" source="npm">
+	<gap:plugin name="plugin.google.maps" source="plugins.cordova.io">
 		<param name="API_KEY_FOR_ANDROID" value="xyz" />
-		<param name="API_KEY_FOR_IOS" value="123" />
 	</gap:plugin>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
