@@ -1,3 +1,8 @@
 .banner, .map {
     width:100%;
 }
+
+.banner2 {
+    width:25%;
+	height:25%;
+}
